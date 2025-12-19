@@ -3,9 +3,10 @@ body {
 }
 
 .container {
-    max-width: min(100%, 1440px);
+     max-width: 1440px;
+     width: 100%;
     margin: auto;
-    padding-top:136px;
+    padding-top: 138px;
 }
 
 /* header  */
@@ -21,8 +22,12 @@ header {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1;
+
+    
 
 }
+
 
 .header-ul {
     display: flex;
@@ -102,65 +107,98 @@ header {
 
 /* section2  */
 
-.section2{
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    gap: 40px;
     background-color: #FFE18A;
     height: 560px;
-    position: relative;
+    position: relative
     
+
 
 
 }
 
-.img21,.img22{
+.img21,
+.img22 {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.article1{
+
+.article1 {
     width: 620px;
-height: 400px;
-top: 80px;
-left: 80px;
-opacity: 1;
-position: absolute;
+    height: 400px;
+    top: 80px;
+    left: 80px;
+    opacity: 1;
+    position: absolute;
+  
 
 
 }
-.article-1-is{
-
-font-weight: 700;
-font-style: Bold;
-font-size: 64px;
-line-height: 72px;
-letter-spacing: 0%;
-color:#FFFFFF;
-position: absolute;
-top: 164px;
-left: 194px;
-opacity: 1;
-
-}
-.article2{
+.article2 {
     width: 620px;
     height: 400px;
     top: 80px;
     left: 740px;
     opacity: 1;
     
-position: absolute;
+    position: absolute;
 
 }
-.article-2-is{
 
-font-weight: 700;
-font-style: Bold;
-font-size: 64px;
-line-height: 72px;
-letter-spacing: 0%;
-color:#FFFFFF;
-position: absolute;
-top: 164px;
-left: 195px;
-opacity: 1;
+.article-1-is,.article-2-is  {
+
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    position: absolute;
+    top: 164px;
+    left: 194px;
+    opacity: 1;
+
+}
+
+/* ra agar vcade magram ver vaketeb imas ro pataravdebodes dapataravebastan ertad  */
+
+
+
+
+/* footer  */
+footer {
+    background-color: #372D23;
+    padding: 32px 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footerul1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.footerli1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #FCC21B;
+    ;
+
+
+}
+
+.footerul2 {
+    display: flex;
+    column-gap: 24px;
 
 }
