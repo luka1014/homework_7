@@ -7,6 +7,49 @@ body {
     margin: auto;
 }
 
+/* header  */
+header {
+    background-color: #372D23;
+    padding: 32px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-ul {
+    display: flex;
+    column-gap: 48px;
+}
+
+.active,
+.inactive {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+
+}
+
+.inactive {
+    color: #FCC21B;
+    ;
+}
+
+.active {
+    color: #ED6C30;
+    ;
+}
+
+.fa-bag-shopping {
+    font-size: 40px;
+
+    color: #FCC21B;
+
+}
+
+
 /* section1 */
 
 .section1 {
